@@ -14,3 +14,31 @@ tab = \t
 espaços = \s
 
 Metacaracteres são simbolos que tem significas diferente do literal(grupos, conjuntos....)
+
+HITÓRICO DE QUANTIDADE DE CARACTERES
+no início existiam poucos caracteres registrados
+Um byte (8 bits) - 256 caracteres
+Esses 256 caracteres eram Símbolos, potuanção, A-Z, a-z, 0-9
+
+Depois foi mudado para Dois bytes (16 bits) - 65500+ caracteres
+Esses 65500+ caracteres eram +Símbolos, +potuanção, A-Z, a-z, 0-9
+
+->Hoje
+Unicode, quantidade de bytes variável
+Abrange + 1 milhão de caracteres
+Atualmente tem mais de 100.000 caracteres atribuidos
+https://unicode-table.com/pt/
+
+SHORTHANDS
+\d -> pegando digitos do texto (números)
+
+\D -> pegando digitos do texto (não números - [^0-9])
+
+\w -> pegando digitos do texto (caracteres [a-zA-Z0-9_])
+
+\W -> pegando digitos do texto (não caracteres - [^a-zA-Z0-9_])
+
+\s -> pegando digitos do texto (espaço em branco [ \t\r\f\n])
+
+\S -> pegando digitos do texto (não espaço em branco [^ \t\r\f\n])
+

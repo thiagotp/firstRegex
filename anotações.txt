@@ -1,0 +1,16 @@
+Flags:
+g - global:
+    Ela procura por todo o texto o que você quer. Não irá para na primeira ocorrência da procura
+
+i - ignore case
+    Irá ignorar se sua procura está em maiúsculo ou minúsculo
+
+para o JS textos de uma linha aceitam aspas simples ou duplas sem problemas
+para textos de multiplas linhas é necessário usar crase
+
+cuidado com a configuração do tab pois as vezes o tab está configurado para gerar espaços
+
+tab = \t
+espaços = \s
+
+Metacaracteres são simbolos que tem significas diferente do literal(grupos, conjuntos....)

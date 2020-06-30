@@ -42,3 +42,27 @@ SHORTHANDS
 
 \S -> pegando digitos do texto (não espaço em branco [^ \t\r\f\n])
 
+QUANTIFICADORES
+
++ -> Significa que pode ter um ou mais caracteres daquele tipo
+
+* -> Significa que pode ter zero ou mais caracteres daquele tipo
+
+? -> Significa que o caracatere escolhido pode ou não existir (opicional)
+
+é possível dizer quantos caracteres você está buscando usando "{}"
+Exemplo:
+{2,4} -> pode existir 2 a 4 carateres, ou seja, no mínimo 2, 3 e no máximo 4 caracteres
+{4,} -> no mínimo 4 caracteres e sem limite de quantidade máxima 
+
+GRUPOS E RETROVISORES
+
+Um GRUPO é criado pra procurar coisas específicas no texto, tudo que é referenciado no grupo
+é armazenado e pode ser espelhado em um RETROVISOR
+Exemplo:
+
+/(expressão1)(grupo2)/g  -> \1(referencia para o grupo 1) \2(referencia para o grupo 2)
+
+para que um valor do grupo não seja armazenado é necessário usar "?:"
+Exemplo:
+/(?:expressão)

@@ -10,3 +10,4 @@ Os e-mails dos convidados são:
 console.log(texto.match(/\w+?\.?\w+@\w+\.\w*\.?\w*\.?\w*/gi))
 console.log("outro modo")
 console.log(texto.match(/[\w.]+@[\w.]+/gi))
+console.log(texto.match(/\S+@\w*\.\w{2,6}(\.\w{2})?/g))
